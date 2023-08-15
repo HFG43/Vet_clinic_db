@@ -8,3 +8,7 @@ CREATE TABLE animals (
     weigth_kg DECIMAL(3,2)
     );
 
+ALTER TABLE animals DROP COLUMN id;
+
+ALTER TABLE animals ADD id INT GENERATED ALWAYS AS IDENTITY;
+
