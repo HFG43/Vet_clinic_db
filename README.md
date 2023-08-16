@@ -1,4 +1,13 @@
 <a name="readme-top"></a>
+<div align="center">
+  
+  <img src="./Logo HG.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>README</b></h3>
+
+</div>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
