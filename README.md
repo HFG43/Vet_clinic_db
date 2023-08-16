@@ -139,8 +139,6 @@ If you like this project you could clone the repo and work with it or do the cha
 
 I would like to thank Microverse for providing the necessary resources for this project.
 
-I would like to thank...
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
