@@ -19,7 +19,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Vet Clinic <a name="about-project"></a>
+# 📖 Vet Clinic <a name="about-project"></a>
 
 Vet Clinic is a project where I put in practice the use of PGSQL, by generating an animals database.
 
@@ -71,8 +71,6 @@ Clone this repository to your desired folder:
 
   cd my-folder
   git clone https://github.com/HFG43/Vet_clinic_db
-
---->
 
 ### Usage
 
