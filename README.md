@@ -51,6 +51,8 @@ Vet Clinic is a project where I put in practice the use of PGSQL, by generating 
 - **[Create a Relational dataBase using PostgreSQL]**
 - **[Create a Table and insert data]**
 - **[Make different SQL queries]**
+- **[Use Transaction to ensure safe inserts, updates & deletions]**
+- **[Use Agregation for SQL queries]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,7 +101,7 @@ INSERT INTO animals VALUES (column1, ...columnN);
 Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database.
 
 ```sh
-SELECT [define column(n) or use * for all] FROM animals WHERE [CONDITION];
+SELECT [define column(n) or use * to select all] FROM animals WHERE [CONDITION];
 ```
 
 To run tests, run the following command:
