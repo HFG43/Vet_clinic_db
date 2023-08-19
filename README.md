@@ -54,6 +54,9 @@ Vet Clinic is a project where I put in practice the use of PGSQL, by generating 
 - **[Use Transaction to ensure safe inserts, updates & deletions]**
 - **[Use Agregation for SQL queries]**
 - **[Make queries for multiple tables]**
+- **[Add Join table for visits]**
+- **[Add many to many relationships]**
+- **[Use nested queries]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -127,7 +130,6 @@ No Deployment available
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add Join table for visits]**
 - [ ] **[Generate a performance audit]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
