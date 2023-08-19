@@ -68,7 +68,7 @@ SELECT animals.name, COUNT(day_of_visit) FROM visits JOIN animals ON animals_id 
 
 SELECT day_of_visit, animals.name, vets.name FROM visits JOIN vets ON vet_id = vets.id JOIN animals ON animals_id = animals.id WHERE vets.name LIKE '%mith%' ORDER BY day_of_visit LIMIT 1;
 
-SELECT animals.name as animal_name, vets.name as vet_name, day_of_visit FROM visits JOIN animals ON animals_id = animals.id JOIN vets ON vet_id = vets.id ORDER BY date_of_graduation DESC LIMIT 1;
+SELECT animals.name as animal_name, vets.name as vet_name, day_of_visit FROM visits JOIN animals ON animals_id = animals.id JOIN vets ON vet_id = vets.id ORDER BY day_of_visit DESC LIMIT 1;
 
 SELECT vets.name, vet_id, COUNT (day_of_visit) FROM visits JOIN vets ON vet_id = vets.id WHERE vets.id IN (SELECT vets.id FROM specializations RIGHT OUTER JOIN vets ON vets_id = vets.id WHERE species_id IS NULL) GROUP BY vets.name, vet_id;
 
