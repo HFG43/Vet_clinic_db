@@ -73,3 +73,9 @@ SELECT animals.name as animal_name, vets.name as vet_name, day_of_visit FROM vis
 SELECT vets.name, vet_id, COUNT (day_of_visit) FROM visits JOIN vets ON vet_id = vets.id WHERE vets.id IN (SELECT vets.id FROM specializations RIGHT OUTER JOIN vets ON vets_id = vets.id WHERE species_id IS NULL) GROUP BY vets.name, vet_id;
 
 SELECT vets.name,(SELECT species.name FROM species WHERE species.id = animals.species_id) AS specie, COUNT (day_of_visit) FROM visits JOIN animals ON animals_id = animals.id JOIN vets ON vet_id = vets.id WHERE vet_id = (SELECT vets.id FROM specializations RIGHT OUTER JOIN vets ON vets_id = vets.id WHERE species_id IS NULL) GROUP BY specie, vets.name ORDER BY COUNT(day_of_visit) DESC LIMIT 1;
+
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
+
+explain analyze SELECT * FROM visits where vet_id = 2;
+
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
