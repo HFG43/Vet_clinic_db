@@ -36,3 +36,8 @@ ALTER TABLE animals ADD PRIMARY KEY (id);
 
 CREATE TABLE visits (animals_id INT REFERENCES animals(id) ON UPDATE CASCADE, vet_id INT REFERENCES vets(id) ON UPDATE CASCADE, day_of_visit DATE, CONSTRAINT pk_visits PRIMARY KEY (animals_id, vet_id, day_of_visit));
 
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+BEGIN;
+ALTER TABLE visits DROP CONSTRAINT pk_visits;
+COMMIT;
