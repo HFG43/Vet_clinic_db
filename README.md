@@ -57,6 +57,7 @@ Vet Clinic is a project where I put in practice the use of PGSQL, by generating 
 - **[Add Join table for visits]**
 - **[Add many to many relationships]**
 - **[Use nested queries]**
+- **[Performance Audite]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,13 +119,19 @@ No Deployment available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Hernán Güemes**
 
 - GitHub: [@githubhandle](https://github.com/HFG43)
 - Twitter: [@twitterhandle](https://twitter.com/HFG_43)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hern%C3%A1n-g%C3%BCemes-a440591b/)
+
+👤 **Andrea Manuel**
+
+- GitHub: [@AndreaM2429](https://github.com/AndreaM2429)
+- Twitter: [@AndreaManuelOr1](https://twitter.com/AndreaManuelOr1)
+- LinkedIn: [Andrea Manuel](https://www.linkedin.com/in/andreamanuel24/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
